@@ -12,14 +12,31 @@
 
     <body>
         <header>
-            <div class="top-container">
+            <div class="top-container row">
+                <!-- View High Scores Button -->
                 <button id="viewHighScores" type="button">View High Scores</button>
                 
-                <p class="timer" >Time:120</p>
+                <!-- Timer Button -->
+                <p class="timer col text-right" >Time: 120s </p>
             </div>
         </header>
 
+        <main>
+            <div>
+                <div class="quiz-intro col text-center">
+                    <h1>Welcome to JavaScript Coding Quiz</h1>
+                </div>
+            </div>
+        </main>
 
+         <!--Start Button-->
+        <div class = "wrapper" >
+            <p class="intro-p" class = "begin">
+                Try to answer the following code-related questions within the time limit.
+                Keep in mind that the incorrect answers will penalize your score/time by ten seconds!
+            </p>
+            <button class="btn" id="startButton">Start Quiz</button>
+        </div>
 
 
         <script src="./assets/js/script.js"></script>
