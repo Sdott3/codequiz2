@@ -21,22 +21,43 @@
             </div>
         </header>
 
-        <main>
+        <section>
             <div>
-                <div class="quiz-intro col text-center">
-                    <h1>Welcome to JavaScript Coding Quiz</h1>
+                <div>
+                    <h1 class="quiz-intro col text-center">Welcome to JavaScript Coding Quiz</h1>
                 </div>
-            </div>
-        </main>
 
-         <!--Start Button-->
-        <div class = "wrapper" >
-            <p class="intro-p" class = "begin">
-                Try to answer the following code-related questions within the time limit.
-                Keep in mind that the incorrect answers will penalize your score/time by ten seconds!
-            </p>
-            <button class="btn" id="startButton">Start Quiz</button>
-        </div>
+
+                
+                <div>
+                    <p class="d-flex justify-content-center text-center">
+                        Try to answer the following code-related questions within the time limit.
+                        Keep in mind that the incorrect answers will penalize your score/time by ten seconds!
+                    </p>
+
+                    <!--Start Button-->
+                    <button class="btn" id="startButton">Start Quiz</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <!--question body-->
+                <div>
+                    <h2>Ask the question</h2>
+                    <ul>
+                        <li><button class ="choices button" id="answer_btn1" value="a">Answer1</button></li>
+                        <li><button class ="choices button" id="answer_btn2" value="b">Answer2</button></li>
+                        <li><button class ="choices button" id="answer_btn3" value="c">Answer3</button></li>
+                        <li><button class ="choices button" id="answer_btn4" value="d">Answer4</button></li>
+                    </ul>
+                    <div id="rightWrong">
+                        <p>Right or Wrong</p>
+                    </div>
+                </div>
+        </section>
 
 
         <script src="./assets/js/script.js"></script>
